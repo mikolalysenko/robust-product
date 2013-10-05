@@ -1,0 +1,34 @@
+{
+  "name": "robust-product",
+  "version": "0.0.0",
+  "description": "Exactly multiplies two non-overlapping increasing sequences",
+  "main": "product.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "robust-scale": "~0.0.3",
+    "robust-sum": "~0.0.2"
+  },
+  "devDependencies": {
+    "tap": "~0.4.4",
+    "tape": "~1.1.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/robust-product.git"
+  },
+  "keywords": [
+    "exact",
+    "arithmetic",
+    "float"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/robust-product/issues"
+  }
+}
